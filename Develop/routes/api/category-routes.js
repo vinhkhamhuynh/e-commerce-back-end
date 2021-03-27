@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
   // be sure to include its associated Products
+// res.send('testing')
 });
 
 router.get('/:id', async (req, res) => {
